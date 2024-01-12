@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin-top: 20px;
+    background-color: #010123;
+}
+
+.div-title {
+    width: 100%;
+}
+.title-principal{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplicacion-tareas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-principal {
+    width: 600px;
+    min-height: 500px;
+    background-color: #c5efeb;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.title-lista {
+    color: #1b1b32;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+}
