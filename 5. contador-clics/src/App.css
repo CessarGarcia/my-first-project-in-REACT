@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #d3d1d2;
+}
+
+.App, .logo-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.logo-contenedor{
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    object-fit: cover;
+}
